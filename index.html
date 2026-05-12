@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Insight</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!--header/шапка сайта-->  
+<header class="header">
+  <div class="container nav">
+    <h2 class="logo">GameInsight</h2>
+    <nav>
+      <a href="#genres">Жанры</a>
+      <a href="#audience">Аудитория</a>
+      <a href="#platforms">Платформы</a>
+      <a href="#contact">Опрос</a>
+    </nav>
+  </div>
+</header>
+
+<!--hero/главный экран-->
+<main>
+  <section class="hero">
+    <div class="container hero-box">
+      <div>
+        <p class="tag">Мир видеоигр</p>
+        <h1>Игровая индустрия и аудитория игроков</h1>
+        <p>
+          Видеоигры стали частью современной культуры. Они помогают отдыхать,
+          общаться, соревноваться и открывать новые виртуальные миры.
+        </p>
+        <a href="#genres" class="btn">Смотреть жанры</a>
+      </div>
+
+      <div class="hero-card">
+        <h3>Почему это интересно?</h3>
+        <p>Игры объединяют людей разных возрастов и интересов.</p>
+      </div>
+    </div>
+  </section>
+
+<!--genres/жанры игр-->
+  <section id="genres" class="section container">
+    <h2>Популярные жанры</h2>
+    <div class="grid">
+      <article class="card">
+        <span>01</span>
+        <h3>Экшен</h3>
+        <p>Динамичные игры, где важны скорость, реакция и активные действия.</p>
+      </article>
+
+      <article class="card">
+        <span>02</span>
+        <h3>Шутеры</h3>
+        <p>Игры, где важны точность, стратегия и быстрое принятие решений.</p>
+      </article>
+
+      <article class="card">
+        <span>03</span>
+        <h3>RPG</h3>
+        <p>Сюжетные игры с развитием персонажа, заданиями и исследованием мира.</p>
+      </article>
+    </div>
+  </section>
+
+<!--audience/аудитория-->
+  <section id="audience" class="section container">
+    <h2>Аудитория игроков</h2>
+    <div class="grid">
+      <article class="card">
+        <span>🎮</span>
+        <h3>Подростки</h3>
+        <p>Часто выбирают онлайн-игры, шутеры и соревновательные проекты.</p>
+      </article>
+
+      <article class="card accent-card">
+        <span>⭐</span>
+        <h3>Молодёжь</h3>
+        <p>Любит кооперативные игры, сюжетные проекты и общение с друзьями.</p>
+      </article>
+
+      <article class="card">
+        <span>🧠</span>
+        <h3>Взрослые</h3>
+        <p>Часто предпочитают стратегии, симуляторы и игры с глубоким сюжетом.</p>
+      </article>
+    </div>
+  </section>
+
+<!--platforms/игровые платформы-->
+  <section id="platforms" class="section container">
+    <h2>Игровые платформы</h2>
+    <div class="grid">
+      <article class="card">
+        <h3>ПК</h3>
+        <p>Большой выбор игр, высокая производительность и гибкие настройки.</p>
+      </article>
+
+      <article class="card">
+        <h3>Консоли</h3>
+        <p>Удобная игра дома, эксклюзивные проекты и комфортное управление.</p>
+      </article>
+
+      <article class="card">
+        <h3>Смартфоны</h3>
+        <p>Мобильные игры доступны почти в любом месте и в любое время.</p>
+      </article>
+    </div>
+  </section>
+
+<!--contact/форма опроса-->
+  <section id="contact" class="section container">
+    <h2>Мини-опрос</h2>
+    <p class="section-text">
+      Форма показывает пример обратной связи и взаимодействия пользователя с сайтом.
+    </p>
+
+    <form class="form">
+      <input type="text" placeholder="Ваше имя" required>
+      <input type="email" placeholder="Ваш email" required>
+
+      <select required>
+        <option value="">Любимый жанр</option>
+        <option>Экшен</option>
+        <option>Шутеры</option>
+        <option>RPG</option>
+        <option>Стратегии</option>
+      </select>
+
+      <select required>
+        <option value="">Платформа</option>
+        <option>ПК</option>
+        <option>Консоль</option>
+        <option>Смартфон</option>
+      </select>
+
+      <textarea rows="5" placeholder="Почему вам нравятся игры?" required></textarea>
+
+      <button type="submit" class="btn">Отправить</button>
+    </form>
+  </section>
+</main>
+
+<footer class="footer">
+  <p>© 2026 Game Insight.</p>
+</footer>
+
+</body>
+</html>
