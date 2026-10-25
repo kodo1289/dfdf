@@ -60,10 +60,10 @@ movies-api/
 
 ### Клонирование репозитория
 
-После публикации проекта замените `<username>` на имя пользователя GitHub:
+Перед клонированием замените `YOUR_GITHUB_USERNAME` на свой логин GitHub:
 
 ```powershell
-git clone https://github.com/<username>/movies-api.git
+git clone https://github.com/YOUR_GITHUB_USERNAME/movies-api.git
 cd movies-api
 ```
 
@@ -92,9 +92,9 @@ $env:DATABASE_URL = "sqlite+aiosqlite:///./movies.db"
 
 После запуска:
 
-- API: <http://127.0.0.1:8000>
-- Swagger UI: <http://127.0.0.1:8000/docs>
-- OpenAPI JSON: <http://127.0.0.1:8000/openapi.json>
+- API: [http://127.0.0.1:8000](http://127.0.0.1:8000)
+- Swagger UI: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
+- OpenAPI JSON: [http://127.0.0.1:8000/openapi.json](http://127.0.0.1:8000/openapi.json)
 
 ## Основные эндпоинты
 
@@ -196,11 +196,9 @@ git init
 git add .
 git commit -m "Add Movies API project"
 git branch -M main
-git remote add origin https://github.com/<username>/movies-api.git
+git remote add origin https://github.com/YOUR_GITHUB_USERNAME/movies-api.git
 git push -u origin main
 ```
 
 3. Проверьте в настройках репозитория GitHub, что его видимость — **Public**.
-4. Ссылка для отправки преподавателю: `https://github.com/<username>/movies-api`.
-#   m o v i e s - a p i  
- 
+4. Ссылка для отправки преподавателю: `https://github.com/YOUR_GITHUB_USERNAME/movies-api`.
