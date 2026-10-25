@@ -185,20 +185,3 @@ python -m pytest
 ```
 
 Тесты используют отдельную временную SQLite-базу и не изменяют рабочую `movies.db`.
-
-## Публикация на GitHub
-
-1. Создайте на GitHub **публичный** репозиторий `movies-api` без автоматически созданных README и лицензии.
-2. В корне проекта выполните:
-
-```powershell
-git init
-git add .
-git commit -m "Add Movies API project"
-git branch -M main
-git remote add origin https://github.com/YOUR_GITHUB_USERNAME/movies-api.git
-git push -u origin main
-```
-
-3. Проверьте в настройках репозитория GitHub, что его видимость — **Public**.
-4. Ссылка для отправки преподавателю: `https://github.com/YOUR_GITHUB_USERNAME/movies-api`.
